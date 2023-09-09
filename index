@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Personal Data
+  </title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <!-- Personal Data Section -->
+  <section class="container text-center mt-5" id="personal-data">
+   <img alt="iampcee" data-testid="slackDisplayImage" class="img-fluid rounded-circle mb-3" src="profile-picture.jpg"/>
+   <h2 data-testid="slackUserName">
+    Promise Nduji
+   </h2>
+   <p data-testid="currentDayOfTheWeek">
+   </p>
+   <p id="currentUTCTime">
+   </p>
+  </section>
+  <!-- Bootstrap & jQuery JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+  </script>
+  <!-- Custom JS -->
+ </body>
+</html>
